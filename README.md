@@ -21,7 +21,7 @@
         data: bytecode,
         arguments: [listOfCandidates.map(name => web3.utils.asciiToHex(name))]
         }).send({
-        from: '0x7db8FDc77d3448B25FC5Ef0acd19d510f69b5D67',
+        from: '0xB7Ab5D890A061b61133EC75314490C2cc271118b',
         gas: 1500000,
         gasPrice: web3.utils.toWei('0.00003', 'ether')
         }).then((newContractInstance) => {
