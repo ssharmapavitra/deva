@@ -1,7 +1,7 @@
 import React from "react";
 export default function CandidateCard() {
 	return (
-		<div className="CardWidth">
+		<div className="CardWidth w-50 mx-5">
 			<div className="row row-cols-1 row-cols-md-3 g-3">
 				<div className="col-sm-3">
 					<div className="card">
@@ -37,9 +37,7 @@ export default function CandidateCard() {
 							<h5 className="card-title">Gyaneshwari Sharma</h5>
 							<p className="card-text">
 								A Third Year undergraduate student pursuing Bachelors in
-								Technology(B.Tech), Information Technology, in University
-								Institute of Technology Rajiv Gandhi Prodyougiki
-								Vishwavidyalaya(UIT-RGPV), Bhopal
+								Technology(B.Tech), Information Technology, in UIT-RGPV, Bhopal
 							</p>
 							<a
 								href="https://www.linkedin.com/in/gyaneshwari-sharma/"

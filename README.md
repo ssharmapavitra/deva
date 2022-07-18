@@ -23,7 +23,7 @@ Execute the following Commands to run DEVA on your system.
     data: bytecode,
     arguments: [listOfCandidates.map(name => web3.utils.asciiToHex(name))]
     }).send({
-    from: '0xB7Ab5D890A061b61133EC75314490C2cc271118b',
+    from: '0x57c4a5b6D3339Bd96a6CF5a83a9Ce7Cd8d37b5c9',
     gas: 1500000,
     gasPrice: web3.utils.toWei('0.00003', 'ether')
     }).then((newContractInstance) => {

@@ -50,7 +50,7 @@ abi = [
 ];
 contract = new web3.eth.Contract(abi);
 // update contract address
-contract.options.address = "0x548f7Fe7fDf1175580bbffC39C4dEF3621Fec0c1";
+contract.options.address = "0x0da413509680a3E0CbCF91f43eD8E59dEe483a11";
 
 candidates = {
 	Pavitra: "candidate-1",

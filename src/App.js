@@ -13,8 +13,10 @@ function App() {
 						Powered By <cite title="Source Title">Blockchain</cite>
 					</figcaption>
 				</figure>
+				<br />
+				<br />
 			</div>
-			<div>
+			<div className="d-flex w-100 justify-content-center">
 				<CandidateCard />
 			</div>
 			<div className="container">
